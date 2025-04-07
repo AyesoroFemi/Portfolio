@@ -58,7 +58,7 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            I’m Femi Ayesoro — a software developer building the future from Lagos.
+            I&#39;m Femi Ayesoro — a software developer building the future from Lagos.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
@@ -72,17 +72,17 @@ export default function About() {
               Over time, I moved deeper into the backend, discovering the power and elegance of Golang.
               Writing scalable APIs with the Chi router, managing databases with PostgreSQL and SQLite,
               and implementing caching with Redis gave me the tools to build full systems from scratch.
-              I’ve since built and maintained systems like a full-featured task API and an event
+              I&#39;ve since built and maintained systems like a full-featured task API and an event
               management API with JWT-based authentication and role control.
             </p>
             <p>
-              I don’t just build—I teach. I’m passionate about helping others learn Golang the right way,
-              and I’m currently creating an in-depth Udemy course focused on practical concepts like
+              I don&#39;t just build—I teach. I&#39;m passionate about helping others learn Golang the right way,
+              and I&#39;m currently creating an in-depth Udemy course focused on practical concepts like
               dependency injection, clean architecture, and interface-driven design.
             </p>
             <p>
               Today, I work at the intersection of backend engineering and frontend integration—bridging
-              performance with great user experience. Whether it's optimizing system architecture,
+              performance with great user experience. Whether it&#39;s optimizing system architecture,
               building intuitive dashboards, or mentoring others on their dev journey, I bring clarity,
               curiosity, and craftsmanship to every line of code.
             </p>
