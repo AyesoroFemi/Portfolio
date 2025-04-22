@@ -255,11 +255,11 @@ function Photos() {
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
         {[
-          'https://www.youtube.com/embed/abWnDX7nQ4A?si=VteuO3yGnnAXOacT',
           'https://www.youtube.com/embed/5lUc4F8ToQA?si=SkrQSAcacXgSMCFe',
+          'https://www.youtube.com/embed/qhV9IEPRWoA?si=5wL_r6XSM-05m3GS',
           'https://www.youtube.com/embed/UIqqI0QMalE?si=MsLPxfP_Pqmwk88G',
+          'https://www.youtube.com/embed/t2azc_knKD8?si=Y5osLHdA8im225Aa',
           'https://www.youtube.com/embed/MfOfKOXKv2I',
-          'https://www.youtube.com/embed/xSPxbt5YLvs?si=3Ve4GOXAyTDFo8NY',
         ].map((videoUrl, videoIndex) => (
           <div
             key={videoUrl}
@@ -323,7 +323,23 @@ export default async function Home() {
       </Container>
       <Photos />
       <Container className="mt-24 md:mt-28">
-        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-8 lg:max-w-none lg:grid-cols-2 lg:gap-8">
+        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-8 lg:max-w-none lg:grid-cols-3 lg:gap-8">
+          <iframe
+            className="w-full aspect-video"
+            src="https://www.youtube.com/embed/t2azc_knKD8?si=Y5osLHdA8im225Aa"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+          <iframe
+            className="w-full aspect-video"
+            src="https://www.youtube.com/embed/qhV9IEPRWoA?si=5wL_r6XSM-05m3GS"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
           <iframe
             className="w-full aspect-video"
             src="https://www.youtube.com/embed/gHgYa4Sofvg?si=xCIou-emWj-q7to9"
